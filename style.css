@@ -1,0 +1,41 @@
+.multiselect{
+    width: 200px;
+}
+
+.selectbox{
+    position: relative;
+}
+
+.selectbox select{
+    width: 100%;
+    font-weight: bold;
+}
+
+.overselect{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.child, .child1{
+    margin-left: 12px;
+}
+
+div.bold{
+    font-weight: bold;
+}
+
+#checkboxes{
+    display: none;
+    border: 1px solid #dadada;
+}
+
+#checkboxes label{
+    display: block;
+}
+
+#checkboxes label:hover{
+    background-color: #1e90ff;
+}
